@@ -10,7 +10,8 @@ import IconPinia from './shared/components/icons/IconPinia.vue';
     <div class="wrapper">
       <h3>Pinia - Examples</h3>
       <nav>
-        <RouterLink to="/">Counter options</RouterLink> 
+        <RouterLink to="/">Counter options</RouterLink>  
+        <RouterLink to="/setup">Counter setup</RouterLink> 
       </nav>
     </div>
   </header>
@@ -31,7 +32,7 @@ header {
 
 nav {
   width: 100%;
-  font-size: 12px;
+  font-size: 1.8rem;
   text-align: center;
   margin-top: 2rem;
 }

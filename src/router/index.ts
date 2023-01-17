@@ -1,4 +1,5 @@
 import Counter1Page from '@/counter/pages/Counter1Page.vue'
+import CounterSetupPage from '@/counter/pages/CounterSetupPage.vue'
 import { createRouter, createWebHistory } from 'vue-router' 
 
 const router = createRouter({
@@ -8,6 +9,11 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: Counter1Page
+    }, 
+    {
+      path: '/setup',
+      name: 'setup',
+      component: CounterSetupPage
     }, 
   ]
 })
